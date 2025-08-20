@@ -6,6 +6,7 @@ This is my first ever Tidy Tuesday project. In this project we are looking at th
 
 ## Tech Stack
 * `pandas`
+* `matplotlib`
 * `math`
 * `requests`
 * `folium`

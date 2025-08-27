@@ -17,6 +17,7 @@ This is my first ever Tidy Tuesday project. In this project we are looking at th
 1. **Step 1. Explore the data**
 2. **Step 2. Cleaning data**
 3. **Step 3. Answering Questions**
+4. **Step 4. Creating Power BI Dashboard**
 
 ## Project Objective
 As this is my first challenge initially i will try to answer questions stated in the description of the Tidy Tuesday project. Once i've answered initial challenges i can further explore the dataset and perhaps find some other interesting insights.
@@ -42,3 +43,10 @@ In this step i've cleaned the dataset to make it easier to work with.
 * **Step 3.2 Which year saw the largest number of changes to the classification?** In this step we need to compare classification changes by year to establish which year had the most classification changes in a year. 
 
 * **Step 3.3 Which Munro is the most remote?** In this step we need to establish which munro can be considered as the most remote. However there is no one acceptable way of calculating remotness. As this is my first project part of Tidy Tuesday i would prefer to keep things relatively simple. I will calculate the remotness of the Munro as the distance between Munro and the closest population center. To do this i have to do a couple of things with our dataset, first we need a way of converting existing coordinate data to latitude and longitude, second i need a method of calculating distance that takes account of the earth curvature and third i need data about population centers in Scotland ( this will be achievied using Overpass API). 
+
+## Creating a Power BI Dashboard
+In this step i've used the data prepared with python to create a power bi dashboard. 
+
+![Dashboard classificaiton tooltip](/dashboard_screenshot/yearly_classification_tooltip.JPG "Dashboard classificaiton tooltip")
+![Dashboard start schema ](/dashboard_screenshot/data_modelling.JPG "Star schema")
+![Filtering by population center ](/dashboard_screenshot/filtering_population_center.JPG "Filtering by population center")
